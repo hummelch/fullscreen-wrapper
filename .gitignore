@@ -1,0 +1,10 @@
+.sass-cache
+styles.css
+styles.css.map
+
+.idea
+node_modules
+
+.DS_Storeo
+
+dist

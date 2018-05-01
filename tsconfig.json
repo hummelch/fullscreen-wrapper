@@ -1,0 +1,11 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "module": "commonjs",
+    "allowJs": true,
+    "target": "es5"
+  },
+  "files": [
+    "app/main.ts"
+  ]
+}
