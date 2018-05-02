@@ -1,0 +1,14 @@
+{
+  "name": "fullscreen-wrapper",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^0.58.2",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-typescript2": "^0.13.0",
+    "ts-loader": "^4.2.0",
+    "typescript": "^2.8.3"
+  }
+}
