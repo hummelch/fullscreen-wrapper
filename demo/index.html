@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fullscreen Wrapper Demo</title>
+    <style>
+        .element {
+            width: 992px;
+            height: 558px;
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+<div class="element">
+    Hello World2
+</div>
+<script src="../dist/fullscreenWrapper.js"></script>
+<script>
+
+    fullscreenWrapper({
+        element: document.querySelector('.element')
+    });
+</script>
+</body>
+</html>
