@@ -2,18 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fullscreen Wrapper Demo</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .wrapper--fixed {
+            margin: 0 auto;
+            position: fixed;
+            z-index: 2;
+            width: 100vw;
+            height: 56.25vw;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+        }
         .element {
+            position: relative;
+            transform-origin: 0px 0px 0px;
             width: 992px;
             height: 558px;
             background-color: lightgrey;
+
         }
     </style>
 </head>
 <body>
-<div class="element">
-    Hello World2
+<div class="wrapper--fixed">
+    <div class="element">
+        <h1>innerWidth:<span class="innerWidth"></span> innerHeight: <span class="innerHeight"></span> </h1>
+        <h1>screen.width:<span class="screenWidth"></span> screen.height: <span class="screenHeight"></span> </h1>
+    </div>
 </div>
 <script src="../dist/fullscreenWrapper.js"></script>
 <script>
